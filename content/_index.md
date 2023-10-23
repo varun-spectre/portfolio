@@ -62,27 +62,31 @@ sections:
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - title: CEO
-          company: GenCoin
-          company_url: ''
-          company_logo: org-gc
-          location: California
-          date_start: '2021-01-01'
+        - title: Data Scientist
+          company: ZS Associates
+          company_url: https://www.zs.com/
+          company_logo: ZS
+          location: Bangalore
+          date_start: '2021-01-18'
           date_end: ''
           description: |2-
-              Responsibilities include:
+              Projects include:
 
-              * Analysing
-              * Modelling
-              * Deploying
-        - title: Professor of Semiconductor Physics
-          company: University X
-          company_url: ''
-          company_logo: org-x
-          location: California
-          date_start: '2016-01-01'
-          date_end: '2020-12-31'
-          description: Taught electronic engineering and researched semiconductor physics.
+              * Part of a team that designed a positive-unlabeled machine learning algorithm to identify ovarian cancer patients with missing insurance claims for surgery, biomarkers, and PARP (poly ADP-ribose polymerase inhibitors) which resulted in identification of $40 million unaddressed opportunities for the client. 
+              * Developed a Seq2Seq LSTM Encoder-Decoder model to identify anomalous ovarian cancer patient journeys and used cross-entropy loss to evaluate the anomalous patient cluster. 
+        - title: Machine Learning Engineer
+          company: Quantiphi Analytics
+          company_url: https://quantiphi.com/
+          company_logo: Quantiphi
+          location: Mumbai
+          date_start: '2019-01-03'
+          date_end: '2019-06-30'
+          description: |2-
+              Projects include:
+
+              * Implemented containerization of an existing solution and deployed it on a Google Kubernetes Orchestration Cluster, while also building a highly scalable video processing framework using Pub/Sub, resulting in a 158% improvement in the client’s product efficiency 
+              * Part of a team that designed and implemented a binary CNN based AI model for top US medical firm to classify images of a SARS-CoV-2 Antigen test cassette for the COVID-19 virus, achieving exceptional sensitivity and specificity of 0.99 and 0.98 respectively 
+              * Developed and implemented a data retrieval model that fetches information from two separate unstructured databases for a given user query. Utilized Universal Sentence Encoder to create embeddings, weighting column names and values, and integrated DistilBERT to find the exact answer from the top 3 scored columns based on their Cosine Similarity
     design:
       columns: '2'
   - block: accomplishments
