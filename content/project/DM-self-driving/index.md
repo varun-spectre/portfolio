@@ -2,7 +2,7 @@
 title: End to end learning of steering commands for self driving
 summary: Developed a self-driving car simulation using 28k images from cameras mounted on the vehicle, utilizing Udacity’s simulator. Trained a CNN model with multi-task learning to predict angle and throttle based on the simulated images.
 tags:
-  - Demo
+  - Deep Learning
 date: "2022-12-08T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).

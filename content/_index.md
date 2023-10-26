@@ -1,6 +1,6 @@
 ---
 # Leave the homepage title empty to use the site title
-title: ''
+title: ""
 date: 2022-10-24
 type: landing
 
@@ -12,7 +12,7 @@ sections:
       image:
         filename: hero-academic.png
       cta:
-        label: '**Get Started**'
+        label: "**Get Started**"
         url: https://wowchemy.com/templates/
       cta_alt:
         label: Ask a question
@@ -33,8 +33,8 @@ sections:
         <script async defer src="https://buttons.github.io/buttons.js"></script>
     design:
       background:
-        gradient_end: '#1976d2'
-        gradient_start: '#004ba0'
+        gradient_end: "#1976d2"
+        gradient_start: "#004ba0"
         text_color_light: true
   - block: about.biography
     id: about
@@ -45,11 +45,11 @@ sections:
   - block: skills
     content:
       title: Skills
-      text: ''
+      text: ""
       # Choose a user to display skills from (a folder name within `content/authors/`)
       username: admin
     design:
-      columns: '1'
+      columns: "1"
   - block: experience
     content:
       title: Experience
@@ -67,20 +67,20 @@ sections:
           company_url: https://www.zs.com/
           company_logo: ZS
           location: Bangalore
-          date_start: '2021-01-18'
-          date_end: ''
+          date_start: "2021-01-18"
+          date_end: ""
           description: |2-
               Projects include:
 
               * Part of a team that designed a positive-unlabeled machine learning algorithm to identify ovarian cancer patients with missing insurance claims for surgery, biomarkers, and PARP (poly ADP-ribose polymerase inhibitors) which resulted in identification of $40 million unaddressed opportunities for the client. 
-              * Developed a Seq2Seq LSTM Encoder-Decoder model to identify anomalous ovarian cancer patient journeys and used cross-entropy loss to evaluate the anomalous patient cluster. 
+              * Developed a Seq2Seq LSTM Encoder-Decoder model to identify anomalous ovarian cancer patient journeys and used cross-entropy loss to evaluate the anomalous patient cluster.
         - title: Machine Learning Engineer
           company: Quantiphi Analytics
           company_url: https://quantiphi.com/
           company_logo: Quantiphi
           location: Mumbai
-          date_start: '2019-01-03'
-          date_end: '2019-06-30'
+          date_start: "2019-01-03"
+          date_end: "2019-06-30"
           description: |2-
               Projects include:
 
@@ -88,52 +88,52 @@ sections:
               * Part of a team that designed and implemented a binary CNN based AI model for top US medical firm to classify images of a SARS-CoV-2 Antigen test cassette for the COVID-19 virus, achieving exceptional sensitivity and specificity of 0.99 and 0.98 respectively 
               * Developed and implemented a data retrieval model that fetches information from two separate unstructured databases for a given user query. Utilized Universal Sentence Encoder to create embeddings, weighting column names and values, and integrated DistilBERT to find the exact answer from the top 3 scored columns based on their Cosine Similarity
     design:
-      columns: '2'
-  - block: accomplishments
-    content:
-      # Note: `&shy;` is used to add a 'soft' hyphen in a long heading.
-      title: 'Accomplish&shy;ments'
-      subtitle:
-      # Date format: https://wowchemy.com/docs/customization/#date-format
-      date_format: Jan 2006
-      # Accomplishments.
-      #   Add/remove as many `item` blocks below as you like.
-      #   `title`, `organization`, and `date_start` are the required parameters.
-      #   Leave other parameters empty if not required.
-      #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
-      items:
-        - certificate_url: https://www.coursera.org
-          date_end: ''
-          date_start: '2021-01-25'
-          description: ''
-          organization: Coursera
-          organization_url: https://www.coursera.org
-          title: Neural Networks and Deep Learning
-          url: ''
-        - certificate_url: https://www.edx.org
-          date_end: ''
-          date_start: '2021-01-01'
-          description: Formulated informed blockchain models, hypotheses, and use cases.
-          organization: edX
-          organization_url: https://www.edx.org
-          title: Blockchain Fundamentals
-          url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
-        - certificate_url: https://www.datacamp.com
-          date_end: '2020-12-21'
-          date_start: '2020-07-01'
-          description: ''
-          organization: DataCamp
-          organization_url: https://www.datacamp.com
-          title: 'Object-Oriented Programming in R'
-          url: ''
-    design:
-      columns: '2'
+      columns: "2"
+  # - block: accomplishments
+  #   content:
+  #     # Note: `&shy;` is used to add a 'soft' hyphen in a long heading.
+  #     title: "Accomplish&shy;ments"
+  #     subtitle:
+  #     # Date format: https://wowchemy.com/docs/customization/#date-format
+  #     date_format: Jan 2006
+  #     # Accomplishments.
+  #     #   Add/remove as many `item` blocks below as you like.
+  #     #   `title`, `organization`, and `date_start` are the required parameters.
+  #     #   Leave other parameters empty if not required.
+  #     #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
+  #     items:
+  #       - certificate_url: https://www.coursera.org
+  #         date_end: ""
+  #         date_start: "2021-01-25"
+  #         description: ""
+  #         organization: Coursera
+  #         organization_url: https://www.coursera.org
+  #         title: Neural Networks and Deep Learning
+  #         url: ""
+  #       - certificate_url: https://www.edx.org
+  #         date_end: ""
+  #         date_start: "2021-01-01"
+  #         description: Formulated informed blockchain models, hypotheses, and use cases.
+  #         organization: edX
+  #         organization_url: https://www.edx.org
+  #         title: Blockchain Fundamentals
+  #         url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
+  #       - certificate_url: https://www.datacamp.com
+  #         date_end: "2020-12-21"
+  #         date_start: "2020-07-01"
+  #         description: ""
+  #         organization: DataCamp
+  #         organization_url: https://www.datacamp.com
+  #         title: "Object-Oriented Programming in R"
+  #         url: ""
+  #   design:
+  #     columns: "2"
   - block: collection
     id: posts
     content:
       title: Recent Posts
-      subtitle: ''
-      text: ''
+      subtitle: ""
+      text: ""
       # Choose how many pages you would like to display (0 = all pages)
       count: 5
       # Filter on criteria
@@ -154,7 +154,7 @@ sections:
     design:
       # Choose a layout view
       view: compact
-      columns: '2'
+      columns: "2"
   - block: portfolio
     id: projects
     content:
@@ -171,100 +171,104 @@ sections:
       # To remove the toolbar, delete the entire `filter_button` block.
       buttons:
         - name: All
-          tag: '*'
+          tag: "*"
         - name: Deep Learning
           tag: Deep Learning
+        - name: Cloud
+          tag: Cloud
+        - name: Systems
+          tag: Systems
         - name: Other
           tag: Demo
     design:
       # Choose how many columns the section has. Valid values: '1' or '2'.
-      columns: '1'
+      columns: "1"
       view: showcase
       # For Showcase view, flip alternate rows?
       flip_alt_rows: false
-  - block: markdown
-    content:
-      title: Gallery
-      subtitle: ''
-      text: |-
-        {{< gallery album="demo" >}}
-    design:
-      columns: '1'
-  - block: collection
-    id: featured
-    content:
-      title: Featured Publications
-      filters:
-        folders:
-          - publication
-        featured_only: true
-    design:
-      columns: '2'
-      view: card
-  - block: collection
-    content:
-      title: Recent Publications
-      text: |-
-        {{% callout note %}}
-        Quickly discover relevant content by [filtering publications](./publication/).
-        {{% /callout %}}
-      filters:
-        folders:
-          - publication
-        exclude_featured: true
-    design:
-      columns: '2'
-      view: citation
-  - block: collection
-    id: talks
-    content:
-      title: Recent & Upcoming Talks
-      filters:
-        folders:
-          - event
-    design:
-      columns: '2'
-      view: compact
-  - block: tag_cloud
-    content:
-      title: Popular Topics
-    design:
-      columns: '2'
+  # - block: markdown
+  #   content:
+  #     title: Gallery
+  #     subtitle: ''
+  #     text: |-
+  #       {{< gallery album="demo" >}}
+  #   design:
+  #     columns: '1'
+  # - block: collection
+  #   id: featured
+  #   content:
+  #     title: Featured Publications
+  #     filters:
+  #       folders:
+  #         - publication
+  #       featured_only: true
+  #   design:
+  #     columns: '2'
+  #     view: card
+  # - block: collection
+  #   content:
+  #     title: Recent Publications
+  #     text: |-
+  #       {{% callout note %}}
+  #       Quickly discover relevant content by [filtering publications](./publication/).
+  #       {{% /callout %}}
+  #     filters:
+  #       folders:
+  #         - publication
+  #       exclude_featured: true
+  #   design:
+  #     columns: '2'
+  #     view: citation
+  # - block: collection
+  #   id: talks
+  #   content:
+  #     title: Recent & Upcoming Talks
+  #     filters:
+  #       folders:
+  #         - event
+  #   design:
+  #     columns: '2'
+  #     view: compact
+  # - block: tag_cloud
+  #   content:
+  #     title: Popular Topics
+  #   design:
+  #     columns: '2'
   - block: contact
     id: contact
     content:
       title: Contact
       subtitle:
       text: |-
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam mi diam, venenatis ut magna et, vehicula efficitur enim.
+        I am always open for a chat over coffee.
       # Contact (add or remove contact options as necessary)
-      email: test@example.org
-      phone: 888 888 88 88
-      appointment_url: 'https://calendly.com'
+      email: smullan2@asu.edu
+      phone: +1 480 442 8803
+      appointment_url: "https://calendly.com"
       address:
-        street: 450 Serra Mall
-        city: Stanford
-        region: CA
-        postcode: '94305'
+        street: 711 W Broadway Rd
+        city: Tempe
+        region: AZ
+        postcode: "85282"
         country: United States
         country_code: US
-      directions: Enter Building 1 and take the stairs to Office 200 on Floor 2
-      office_hours:
-        - 'Monday 10:00 to 13:00'
-        - 'Wednesday 09:00 to 10:00'
+      # directions: Enter Building 1 and take the stairs to Office 200 on Floor 2
+      # office_hours:
+      #   - 'Monday 10:00 to 13:00'
+      #   - 'Wednesday 09:00 to 10:00'
       contact_links:
         - icon: twitter
           icon_pack: fab
           name: DM Me
-          link: 'https://twitter.com/Twitter'
-        - icon: skype
-          icon_pack: fab
-          name: Skype Me
-          link: 'skype:echo123?call'
-        - icon: video
-          icon_pack: fas
-          name: Zoom Me
-          link: 'https://zoom.com'
+          link: "https://twitter.com/varun_mullangi"
+        # - icon: skype
+        #   icon_pack: fab
+        #   name: Skype Me
+        #   link: 'skype:echo123?call'
+        # - icon: video
+        #   icon_pack: fas
+        #   name: Zoom Me
+        #   link: 'https://zoom.com'
       # Automatically link email and phone or display as text?
       autolink: true
       # Email form provider
@@ -276,5 +280,5 @@ sections:
           # Enable CAPTCHA challenge to reduce spam?
           captcha: false
     design:
-      columns: '2'
+      columns: "2"
 ---

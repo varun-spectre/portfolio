@@ -2,7 +2,7 @@
 title: Hybrid Cloud Face Recognition System - Integrating AWS and OpenStack for Enhanced Scalability and Efficiency
 summary: Developed a hybrid cloud application utilizing advanced face-recognition techniques with Python. The system processes classroom videos, identifies students' faces, and retrieves academic records from DynamoDB. Integrated AWS and OpenStack, enabling seamless scalability and cost-effectiveness by utilizing both public and private cloud resources. An extension of Project 2, this approach enhances control and flexibility in triggering AWS Lambda functions through OpenStack VMs.
 tags:
-  - Demo
+  - Cloud
 date: "2023-04-30T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).
